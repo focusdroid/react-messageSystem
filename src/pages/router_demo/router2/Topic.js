@@ -16,10 +16,12 @@ export default class Topic extends Component{
         <div>
           <h1>Topic
           </h1>
-          <Link to={`${this.props.match.url}/detail`}>详情页面</Link>
+          <Link to={`${this.props.match.url}/detail/123`}>详情页面1</Link>
+          <Link to={`${this.props.match.url}/detail/456`}>详情页面2</Link>
           <div>
-            <Route path={`${this.props.match.url}/detail`} component={Detail}></Route>
+            <Route path={`${this.props.match.url}/detail/:id`} component={Detail}></Route>
             {console.log(this.props.match)}
+            <p></p>
           </div>
         </div>
       </Router>

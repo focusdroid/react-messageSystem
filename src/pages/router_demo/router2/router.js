@@ -12,7 +12,7 @@ export default class Routerss extends Component{
         <Home>
           <Switch>
             <Route exact path="/" component={Homes}/>
-            <Route path="/about" component={About} />
+            <Route path="/about/:id/:count" component={About} />
             <Route path="/topics" component={Topic} />
           </Switch>
         </Home>

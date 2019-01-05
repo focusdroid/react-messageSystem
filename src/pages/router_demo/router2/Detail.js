@@ -6,6 +6,7 @@ export default class Detail extends Component{
       <div>
         <div>
           Detail
+          <p>路由参数： {this.props.match.params.id}</p>
         </div>
       </div>
     )
