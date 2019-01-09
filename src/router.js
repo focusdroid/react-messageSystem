@@ -8,6 +8,7 @@ import NoMatch from './pages/nomatch/index' // 404
 import Modals from './pages/ui/modals/index' // 模态框
 import Loading from './pages/ui/loading/index' // loading效果
 import Notification from './pages/ui/notification/index' // 通知提醒
+import Messages from './pages/ui/message/index' // 全局提示
 export default class Routers extends Component{
   render(){
     return (
@@ -21,6 +22,7 @@ export default class Routers extends Component{
                 <Route path="/admin/ui/modals" component={Modals}></Route>
                 <Route path="/admin/ui/loadings" component={Loading}></Route>
                 <Route path="/admin/ui/notification" component={Notification}></Route>
+                <Route path="/admin/ui/messages" component={Messages}></Route>
                 <Route component={NoMatch}></Route>
               </Admin>
             }></Route>

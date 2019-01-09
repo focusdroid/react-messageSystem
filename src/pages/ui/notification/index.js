@@ -10,7 +10,10 @@ const openNotification = () => {
     },
   });
 };
-
+const btn = (
+  <Button type="primary" size="small">
+    收到
+  </Button>)
 export default class Notification extends Component{
   render(){
     return (
@@ -39,6 +42,7 @@ export default class Notification extends Component{
         message: '收到提醒！',
         description: '您收到一条信息',
         duration: 3,
+        btn,
         placement: 'bottomRight',
         onClick: () => {
           console.log('Notification Clicked!');
