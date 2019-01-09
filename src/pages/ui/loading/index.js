@@ -14,7 +14,6 @@ export default class Index extends Component{
     return (
       <div>
         <Card
-
           title="卡片的用法">
           <Spin
             spinning={true}
@@ -38,6 +37,15 @@ export default class Index extends Component{
           ></Alert>*/}
           <Spin
             spinning={this.state.alertState}
+          >
+            <Alert
+              message="React"
+              description="welcome to alert"
+              type="info"
+            ></Alert>
+          </Spin>
+          <Spin
+            spinning={true}
           >
             <Alert
               message="React"
