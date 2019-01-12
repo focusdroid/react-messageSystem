@@ -10,7 +10,9 @@ import Loading from './pages/ui/loading/index' // loading效果
 import Notification from './pages/ui/notification/index' // 通知提醒
 import Messages from './pages/ui/message/index' // 全局提示
 import Tabs from './pages/ui/tabs/index' // tab标签页
-import Gallery from './pages/ui/gallery/index'
+import Gallery from './pages/ui/gallery/index' // 图片画廊
+import Carousel from './pages/ui/carousel/index' // 轮播图（走马灯）
+
 export default class Routers extends Component{
   render(){
     return (
@@ -27,6 +29,7 @@ export default class Routers extends Component{
                 <Route path="/admin/ui/messages" component={Messages}></Route>
                 <Route path="/admin/ui/tabs" component={Tabs}></Route>
                 <Route path="/admin/ui/gallery" component={Gallery}></Route>
+                <Route path="/admin/ui/carousel" component={Carousel}></Route>
                 <Route component={NoMatch}></Route>
               </Admin>
             }></Route>

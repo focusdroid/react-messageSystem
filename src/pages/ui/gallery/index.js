@@ -35,6 +35,7 @@ export default class Gallery extends Component{
           {imgList.map((item, i)=> <Col md={4}>{imgList[i]}</Col>)}
         </Row>
         <Modal
+          title="图片展示"
           width={500}
           height={800}
           visible={this.state.imgvisible}
@@ -43,7 +44,7 @@ export default class Gallery extends Component{
           })}}
           footer={null}
         >
-          <img src={this.state.currentImg} alt="" style={{width: '100%', paddingTop: 20}}/>
+          <img src={this.state.currentImg} alt="" style={{width: '100%'}}/>
         </Modal>
       </div>
     )
