@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Button, Icon  } from 'antd'
-import '../ul.less'
+import '../../ul.less'
 const ButtonGroup = Button.Group;
 export default class Buttons extends Component{
   render(){

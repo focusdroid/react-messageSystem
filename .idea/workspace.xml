@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8444ca7d-bca5-4be7-9118-176a4698b76c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/carousel-img/carousel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/carousel-img/carousel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/carousel-img/carousel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/gallery/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/ul.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/ul.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/buttons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/buttons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/carousel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/loading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/loading/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/modals/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/modals/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/tabs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/tabs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/ul.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ul.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -110,28 +109,28 @@
     <session id="-268855437">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="10" />
+          <entry key="js" value="12" />
           <entry key="less" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="12" />
           <entry key="Less" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2363" />
+          <entry key="js" value="2547" />
           <entry key="less" value="1" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2363" />
+          <entry key="JavaScript" value="2547" />
           <entry key="Less" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -147,29 +146,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="417">
+              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/ui/carousel/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/form/login/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/ui/ul.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -266,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/pages/ui/ul.less" />
         <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/carousel/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/form/login/index.js" />
       </list>
     </option>
   </component>
@@ -284,7 +272,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
+    <option name="x" value="416" />
     <option name="width" value="1419" />
     <option name="height" value="900" />
   </component>
@@ -329,6 +317,13 @@
               <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,6 +357,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Object\reactObj\master\src\pages" />
       <recent name="E:\Object\reactObj\master\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -398,7 +394,7 @@
       <workItem from="1546393369958" duration="4915000" />
       <workItem from="1546670170436" duration="12197000" />
       <workItem from="1547044443483" duration="1870000" />
-      <workItem from="1547276251146" duration="1463000" />
+      <workItem from="1547276251146" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="添加路由">
       <created>1546706510735</created>
@@ -428,17 +424,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547275177511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="轮播图功能完成">
+      <created>1547278791023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547278791023</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79369000" />
+    <option name="totallyTimeSpent" value="79790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="643" y="0" width="1419" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12259444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,12 +471,10 @@
     <MESSAGE value="添加路由,添加通知提醒框" />
     <MESSAGE value="tab页签，" />
     <MESSAGE value="画廊功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="画廊功能完成" />
+    <MESSAGE value="轮播图功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="轮播图功能完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/start.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1793">
@@ -777,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -794,7 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ui/ul.less">
+    <entry file="file://$PROJECT_DIR$/src/pages/ul.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
@@ -803,11 +797,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ui/carousel/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>

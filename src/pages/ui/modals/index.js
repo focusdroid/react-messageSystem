@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Button, Modal } from 'antd'
-import '../ul.less'
+import '../../ul.less'
 export default class Modals extends Component{
   constructor(props){
     super(props);

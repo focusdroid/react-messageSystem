@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Tabs, Icon  } from 'antd'
-import '../ul.less'
+import '../../ul.less'
 
 const TabPane = Tabs.TabPane;
 

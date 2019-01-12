@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Carousel } from 'antd'
-import '../ul.less'
+import '../../ul.less'
 
 export default class Carousels extends Component{
   constructor(props){
