@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8444ca7d-bca5-4be7-9118-176a4698b76c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/gallery/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gallery/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/tabs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/tabs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/gallery/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,22 +129,24 @@
     <session id="-268855437">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="8" />
+          <entry key="js" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1321" />
+          <entry key="js" value="1948" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1321" />
+          <entry key="JavaScript" value="1948" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -136,10 +163,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/ui/tabs/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/ui/gallery/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="475">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -236,8 +263,8 @@
         <option value="$PROJECT_DIR$/src/pages/ui/notification/index.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/message/index.js" />
         <option value="$PROJECT_DIR$/src/router.js" />
-        <option value="$PROJECT_DIR$/src/pages/ui/gallery/index.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/tabs/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/ui/gallery/index.js" />
       </list>
     </option>
   </component>
@@ -277,6 +304,11 @@
             <path>
               <item name="master" type="b2602c69:ProjectViewProjectNode" />
               <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,13 +316,6 @@
               <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NavLeft" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="master" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +329,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="master" type="b2602c69:ProjectViewProjectNode" />
@@ -312,6 +345,12 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="tabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,6 +369,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Object\reactObj\master\public" />
       <recent name="D:\work\React\react-messageSystem\src\pages\router_demo\router3" />
     </key>
   </component>
@@ -5196,11 +5236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547045938432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tab页签，">
+      <created>1547272943099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547272943100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75021000" />
+    <option name="totallyTimeSpent" value="77207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="574" y="0" width="1419" height="900" extended-state="0" />
@@ -5234,7 +5281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加路由" />
     <MESSAGE value="添加路由,添加通知提醒框" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加路由,添加通知提醒框" />
+    <MESSAGE value="tab页签，" />
+    <option name="LAST_COMMIT_MESSAGE" value="tab页签，" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/start.js">
@@ -5543,10 +5591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ui/gallery/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/ui/tabs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -5560,10 +5608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ui/tabs/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/ui/gallery/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="475">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
