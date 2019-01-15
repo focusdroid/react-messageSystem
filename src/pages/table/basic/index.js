@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Card, Table } from 'antd'
 import '../../ul.less'
 import axios from 'axios'
+
+import { getTableList } from '../../../axios/index'
+
 export default class Basic extends Component{
   constructor(props){
     super(props);
@@ -97,11 +100,10 @@ export default class Basic extends Component{
     this.requestTableOne()
     this.requestTableTwo()
   }
-  requestTableTwo() {
-    let baseUrl = 'https://www.easy-mock.com/mock/5c3bed639f11712a1b2652ac/focusdroid'
-    axios.get(baseUrl+'/table/list').then((res)=>{
+  async  requestTableTwo() {
+    await getTableList().then((res)=>{
       this.setState({
-        dataSource2: res.data.result
+        dataSource2: res.result
       })
     }).catch()
   }
