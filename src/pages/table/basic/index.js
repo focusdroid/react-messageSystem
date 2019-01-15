@@ -101,9 +101,8 @@ export default class Basic extends Component{
     let baseUrl = 'https://www.easy-mock.com/mock/5c3bed639f11712a1b2652ac/focusdroid'
     axios.get(baseUrl+'/table/list').then((res)=>{
       this.setState({
-        dataSource2: res
+        dataSource2: res.data.result
       })
-      console.log(this.state.dataSource2)
     }).catch()
   }
 }

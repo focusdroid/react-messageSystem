@@ -118,16 +118,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="4563" />
+          <entry key="js" value="4594" />
           <entry key="less" value="1" />
-          <entry key="txt" value="76" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="4563" />
+          <entry key="JavaScript" value="4594" />
           <entry key="Less" value="1" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -157,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/table/basic/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="511">
+              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#787#1321#0" />
@@ -229,6 +229,7 @@
       <find>jsonp</find>
       <find>Topics</find>
       <find>NavLink</find>
+      <find>axios</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -364,7 +365,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vue/vueRouterDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vue/elementtheme" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -412,7 +413,7 @@
       <workItem from="1547044443483" duration="1870000" />
       <workItem from="1547276251146" duration="4216000" />
       <workItem from="1547283984264" duration="1564000" />
-      <workItem from="1547428755739" duration="3685000" />
+      <workItem from="1547428755739" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="添加路由">
       <created>1546706510735</created>
@@ -477,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547284297947</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="动态表格动态数据渲染mock数据">
+      <created>1547433277688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547433277688</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87371000" />
+    <option name="totallyTimeSpent" value="88481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="454" y="46" width="1419" height="920" extended-state="0" />
@@ -522,7 +530,8 @@
     <MESSAGE value="开始表单--登录组件开发" />
     <MESSAGE value="表单中封装的getFieldDecorator使用" />
     <MESSAGE value="注册登录功能没有完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册登录功能没有完成" />
+    <MESSAGE value="动态表格动态数据渲染mock数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态表格动态数据渲染mock数据" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/env.js">
@@ -849,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/table/basic/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="511">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#787#1321#0" />
