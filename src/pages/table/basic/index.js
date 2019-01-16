@@ -25,11 +25,24 @@ export default class Basic extends Component{
       },
       {
         title: '性别',
-        dataIndex: 'sex'
+        dataIndex: 'sex',
+        render(sex){
+          return sex == 1?'男':'女'
+        }
       },
       {
         title: '状态',
-        dataIndex: 'state'
+        dataIndex: 'state',
+        render(state){
+          let config = {
+            '1':'咸鱼一条',
+            '2':'浪子',
+            '3':'北大才子',
+            '4':'爬山',
+            '6':'跑步'
+          }
+          return config[state]
+        }
       },
       {
         title: '爱好',
