@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Table } from 'antd'
+import { Card, Table, Modal } from 'antd'
 import '../../ul.less'
 import axios from 'axios'
 
@@ -10,7 +10,10 @@ export default class Basic extends Component{
     super(props);
     this.state = {
       dataSource: [],
-      dataSource2: []
+      dataSource2: [],
+      dataSource3: [],
+      selectedRowKeys: '',
+      selectrfItem: ''
     }
   }
   render(){
@@ -61,6 +64,14 @@ export default class Basic extends Component{
         dataIndex: 'time'
       }
     ]
+    let { selectedRowKeys } = this.state;
+    const rowSelection = {
+      type: 'radio',
+      selectedRowKeys
+    }
+    const rowSelection2 = {
+      type: 'radio'
+    }
     return(
       <div>
         <Card title="基础表格">
@@ -79,8 +90,48 @@ export default class Basic extends Component{
             pagination={false}
           />
         </Card>
+        <Card title="单选功能表格">
+          <Table
+            bordered
+            rowSelection={rowSelection}
+            onRow={(record, index)=>{
+              return {
+                onClick:() => {
+                  this.onRowClick(record, index)
+                }
+              }
+            }}
+            columns={colums}
+            dataSource={this.state.dataSource}
+            pagination={false}
+          />
+        </Card>
+        <Card title="onChange表格">
+          <Table
+            bordered
+            columns={colums}
+            rowSelection={rowSelection2}
+            onChange={this.onChangeClick.bind(this)}
+            dataSource={this.state.dataSource}
+            pagination={false}
+          />
+        </Card>
       </div>
     )
+  }
+  onChangeClick (selectedRowKeys, selectedRows) {
+    console.log(selectedRowKeys, selectedRows)
+  }
+  onRowClick (record, index) {
+    let selectKey = [index]
+    Modal.info({
+      title: '信息',
+      content: `用户名: ${record.userName}, 用户爱好: ${record.sex}`
+    })
+    this.setState({
+      selectedRowKeys: selectKey,
+      selectrfItem: record
+    })
   }
   requestTableOne () {
     const dataSource = [
@@ -105,6 +156,9 @@ export default class Basic extends Component{
         time: '2019-01-12'
       }
     ]
+    dataSource.map((item, index)=>{
+      item.key = index
+    })
     this.setState({
       dataSource
     })
@@ -115,6 +169,9 @@ export default class Basic extends Component{
   }
   async  requestTableTwo() {
     await getTableList().then((res)=>{
+      res.result.map((item, index)=>{
+        item.key = index
+      })
       this.setState({
         dataSource2: res.result
       })
