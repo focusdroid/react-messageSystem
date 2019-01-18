@@ -14,6 +14,8 @@ import Gallery from './pages/ui/gallery/index' // 图片画廊
 import Carousel from './pages/ui/carousel/index' // 轮播图（走马灯）
 import Logins from './pages/form/login/index' // 登录
 import Basic from './pages/table/basic/index' // 基础表格
+import City from './pages/city/index' // 城市管理
+
 export default class Routers extends Component{
   render(){
     return (
@@ -33,6 +35,7 @@ export default class Routers extends Component{
                 <Route path="/admin/ui/carousel" component={Carousel}></Route>
                 <Route path="/admin/form/login" component={Logins}></Route>
                 <Route path="/admin/table/basic" component={Basic}></Route>
+                <Route path="/admin/city" component={City}></Route>
                 <Route component={NoMatch}></Route>
               </Admin>
             }></Route>
