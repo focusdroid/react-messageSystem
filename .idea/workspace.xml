@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8444ca7d-bca5-4be7-9118-176a4698b76c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/charts/bar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charts/bar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charts/bar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charts/pie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charts/pie/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -79,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="40" />
+          <entry key="js" value="45" />
           <entry key="json" value="1" />
           <entry key="less" value="1" />
         </counts>
@@ -87,22 +87,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="40" />
+          <entry key="JavaScript" value="45" />
           <entry key="Less" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="4699" />
+          <entry key="js" value="5391" />
           <entry key="less" value="53" />
-          <entry key="txt" value="53" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="4699" />
+          <entry key="JavaScript" value="5391" />
           <entry key="Less" value="53" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="PLAIN_TEXT" value="66" />
         </counts>
       </usages-collector>
     </session>
@@ -161,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+            <state relative-caret-position="192">
+              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -171,13 +171,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/charts/bar/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/charts/pie/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="545">
+              <caret line="124" column="12" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#190#228#0" expanded="true" />
+                <element signature="e#446#640#0" />
+                <element signature="e#1520#2495#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charts/bar/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -233,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/Header/index.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.css" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
@@ -282,8 +294,9 @@
         <option value="$PROJECT_DIR$/src/pages/table/basic/index.js" />
         <option value="$PROJECT_DIR$/src/pages/city/index.js" />
         <option value="$PROJECT_DIR$/src/pages/rich/index.js" />
-        <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/pages/charts/bar/index.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/pages/charts/pie/index.js" />
       </list>
     </option>
   </component>
@@ -337,6 +350,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-messageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-messageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="bar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,7 +419,7 @@
       <workItem from="1547428755739" duration="17309000" />
       <workItem from="1547777999368" duration="6544000" />
       <workItem from="1547906167021" duration="4403000" />
-      <workItem from="1547977829208" duration="7359000" />
+      <workItem from="1547977829208" duration="9055000" />
     </task>
     <task id="LOCAL-00001" summary="添加路由">
       <created>1546706510735</created>
@@ -512,17 +533,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547980164432</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="柱状图完成配置和渲染">
+      <created>1547993764685</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547993764685</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120399000" />
+    <option name="totallyTimeSpent" value="122095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07575758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20247933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -583,16 +611,10 @@
     <MESSAGE value="表格单选未完成" />
     <MESSAGE value="富文本完成一半" />
     <MESSAGE value="富文本清除文本还有一些问题（不能清除）" />
-    <option name="LAST_COMMIT_MESSAGE" value="富文本清除文本还有一些问题（不能清除）" />
+    <MESSAGE value="柱状图完成配置和渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="柱状图完成配置和渲染" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/index.css">
@@ -888,16 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -905,13 +917,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar/index.js">
+    <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="192">
+          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#190#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/pie/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="124" column="12" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#446#640#0" />
+            <element signature="e#1520#2495#0" />
           </folding>
         </state>
       </provider>

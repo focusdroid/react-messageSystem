@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Card } from 'antd'
-// import echarts from 'echarts'
-import echarts from 'echarts/lib/echarts' // 按需加载
+// import echarts from 'echarts' // 需要安装 echarts,echarts-for-react，，具体参考npm官网
+/*import echarts from 'echarts/lib/echarts' // 按需加载
 import 'echarts/lib/chart/bar' // 柱形图
 import 'echarts/lib/component/tooltip'
 import 'echarts/lib/component/title'
 import 'echarts/lib/component/legend'
-import 'echarts/lib/component/markPoint'
-import ReactEcharts from 'echarts-for-react';
+import 'echarts/lib/component/markPoint'*/
+import ReactEcharts from 'echarts-for-react'
 export default class Bar extends Component{
   render(){
     return(
