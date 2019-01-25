@@ -4,6 +4,12 @@ import echarts from 'echarts/lib/echarts'
 import echartTheme from '../themeLight'
 import ReactEcharts from 'echarts-for-react'
 export default class Line extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      dataSource3: [100, 800, 1000, 1500, 1200, 1600, 5000]
+    }
+  }
   render() {
     return (
       <div>
@@ -130,15 +136,7 @@ export default class Line extends Component{
           name: '摩拜订单量',
           type: 'line',
           areaStyle: {},
-          data: [
-            100,
-            800,
-            1000,
-            1500,
-            1200,
-            1600,
-            5000
-          ]
+          data: this.state.dataSource3
         }
       ]
     }
