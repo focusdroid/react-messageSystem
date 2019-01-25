@@ -18,6 +18,7 @@ import City from './pages/city/index' // 城市管理
 import Rich from './pages/rich' // 富文本编辑器
 import Bar from './pages/charts/bar/index' // 柱形图
 import Pie from './pages/charts/pie/index' // 饼形图
+import Line from './pages/charts/line/index' // 饼形图
 export default class Routers extends Component{
   render(){
     return (
@@ -41,6 +42,7 @@ export default class Routers extends Component{
                 <Route path="/admin/rich" component={Rich}></Route>
                 <Route path="/admin/charts/bar" component={Bar}></Route>
                 <Route path="/admin/charts/pie" component={Pie}></Route>
+                <Route path="/admin/charts/line" component={Line}></Route>
                 <Route component={NoMatch}></Route>
               </Admin>
             }></Route>

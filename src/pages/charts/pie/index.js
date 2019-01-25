@@ -1,24 +1,32 @@
 import React, { Component } from 'react'
 import { Card } from 'antd'
+import echarts from 'echarts/lib/echarts'
+import echartTheme from '../themeLight'
 import ReactEcharts from 'echarts-for-react'
 
 export default class Pie extends Component{
+  componentDidMount(){
+    echarts.registerTheme('focus', echartTheme)
+  }
   render(){
     return (
       <div>
         <Card title="饼图1">
           <ReactEcharts
             option={this.getOption()}
+            theme='focus'
           />
         </Card>
         <Card title="环形饼图2">
           <ReactEcharts
             option={this.getOption2()}
+            theme='focus'
           />
         </Card>
         <Card title="饼图3">
           <ReactEcharts
             option={this.getOption3()}
+            theme='focus'
           />
         </Card>
       </div>
@@ -141,7 +149,7 @@ export default class Pie extends Component{
       },
       series: [
         {
-          radius :['40%', '80%'], // 两个参数控制是否空心
+          radius : '80%', // 两个参数控制是否空心
           name: '订单量',
           type: 'pie',
           data: [{
@@ -167,7 +175,10 @@ export default class Pie extends Component{
             name: '周日'
           }]
         }
-      ]
+      ].sort((a,b)=>{
+        return a.value - b.value
+      }),
+      roseType: 'radius'
     }
     return option
   }
